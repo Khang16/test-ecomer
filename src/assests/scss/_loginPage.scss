@@ -1,0 +1,55 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://lightence-ant-design-react-template.pages.dev/static/media/login-bg.bf8eb115.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .login-card {
+    width: 31.75rem;
+    max-height: calc(-3rem + 100vh);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(37, 40, 75, 0.8);
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 20px;
+
+    .login-title {
+      text-align: left;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #339CFD;
+    }
+
+    .login-form {
+      .ant-input,
+      .ant-input-password {
+        border-radius: 4px;
+        padding: 10px;
+        font-size: 16px;
+      }
+
+      .ant-btn {
+        border-radius: 4px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .ant-checkbox-wrapper {
+        font-size: 14px;
+      }
+      
+      label{
+        padding-top: 1rem;
+        color: white;
+      }
+    }
+  }
+}
